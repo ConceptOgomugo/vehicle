@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: antiquewhite;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      width: max-content;
+      margin-left: 25%;
+    }
+    .sedans {
+      flex: 1;
+      height: 50%;
+      background-color: rgb(255, 185, 56);
+      border-radius: 5px 0px 0px 5px;
+      text-align: left;
+    }
+    .SUVs {
+      flex: 1;
+      height: 50%;
+      background-color: darkcyan;
+      text-align: left;
+    }
+    .luxury {
+      flex: 1;
+      height: 50%;
+      background-color: rgb(1, 71, 71);
+      border-radius: 0px 5px 5px 0%;
+      text-align: left;
+    }
+    img {
+      padding-top: 30px;
+      padding-left: 30px;
+    }
+    .headings {
+      font-family: 'Big Shoulders Display', sans-serif;
+      text-align: center;
+      color: white;
+    }
+    p {
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 11pt;
+      color: white;
+      padding-top: 30px;
+      padding-right: 10px;
+      padding-left: 40px;
+    }
+    button {
+      border: none;
+      border-radius: 10px;
+      padding: 5px;
+      text-align: center;
+      margin-left: 75px;
+    }
+    .one {
+      margin-top: 40px;
+    }
+    .two {
+      margin-top: 20px;
+    }
+    .three {
+      margin-top: 5px;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sedans">
+      <img src="./images/icon-sedans.svg">
+      <h2 class="headings">Sedans</h2>
+      <p>
+        Choose a sedan for its<br>affordability and excellent<br>fuel economy. Ideal for<br>cruising in the city 
+        or on<br>your next road trip.
+      </p>
+      <button class="one">
+        Learn More
+      </button>
+    </div>
+    <div class="SUVs">
+      <img src="./images/icon-suvs.svg">
+      <h2 class="headings">SUVs</h2>
+      <p>
+        Take an SUV for its spacious<br>interior, power, and<br>versatility. Perfect for your<br>next family vacation 
+        and<br>off-road adventures.
+      </p>
+      <button class="two">
+        Learn More
+      </button>
+    </div>
+    <div class="luxury">
+      <img src="./images/icon-luxury.svg">
+      <h2 class="headings">Luxury</h2>
+        <p>
+          Cruise in the best car brands<br>without the bloated prices.<br>Enjoy the enhanced comfort<br>of a luxury 
+          rental and arrive<br>in style.
+        </p>
+        <button class="three">
+          Learn More
+        </button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
